@@ -6,7 +6,7 @@ function LinkedList() {
     this.next = null;
   }
 
-  // prop
+  // props
   this.head = null;
   this.length = 0;
 

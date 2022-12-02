@@ -1,6 +1,7 @@
 function Stack() {
   this.items = [];
 
+  // methods
   Stack.prototype.push = function (item) {
     this.items.push(item);
     return this.items.length;

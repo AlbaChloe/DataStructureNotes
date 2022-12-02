@@ -1,8 +1,8 @@
 // function Queue() {
-//   // prop
+//   // props
 //   this.items = [];
 
-//   // method
+//   // methods
 //   Queue.prototype.enqueue = function (item) {
 //     this.items.push(item);
 //   };

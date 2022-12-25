@@ -49,15 +49,19 @@ function Dictionary() {
   };
 }
 
+module.exports = {
+  Dictionary,
+};
+
 // test
-var dic = new Dictionary();
-dic.set("name", "chloe");
-dic.set("age", 18);
-dic.set("height", 158);
-dic.set("gender", "female");
-console.log("get: ", dic.get("name"));
-console.log("keys: ", dic.keys());
-console.log("values: ", dic.values());
-console.log("size: ", dic.size());
-dic.remove("gender");
-console.log("has: ", dic.has("gender"));
+// var dic = new Dictionary();
+// dic.set("name", "chloe");
+// dic.set("age", 18);
+// dic.set("height", 158);
+// dic.set("gender", "female");
+// console.log("get: ", dic.get("name"));
+// console.log("keys: ", dic.keys());
+// console.log("values: ", dic.values());
+// console.log("size: ", dic.size());
+// dic.remove("gender");
+// console.log("has: ", dic.has("gender"));
